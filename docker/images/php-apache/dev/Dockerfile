@@ -1,4 +1,4 @@
-FROM matheusbiagini/lamp7.1:base
+FROM matheusbiagini/docker-lamp:base
 LABEL version="0.1.0"
 LABEL description="Image for development on applications of Matheus."
 

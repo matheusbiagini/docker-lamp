@@ -6,12 +6,12 @@ version: '1.0'
 services:
   app-latest:
     build: docker/images/php-apache/base
-    image: matheusbiagini/lamp7.1:latest
+    image: matheusbiagini/docker-lamp:latest
 
   app-base:
     build: docker/images/php-apache/base
-    image: matheusbiagini/lamp7.1:base
+    image: matheusbiagini/docker-lamp:base
 
   app-dev:
     build: docker/images/php-apache/dev
-    image: matheusbiagini/lamp7.1:dev
+    image: matheusbiagini/docker-lamp:dev
