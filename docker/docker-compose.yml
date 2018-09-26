@@ -1,6 +1,6 @@
 version: '3.5'
 
-# This file is an example to build all this images.
+# This file is an example to build all this images. :)
 # run: docker-compose build
 
 services:
