@@ -1,0 +1,17 @@
+version: '1.0'
+
+# This file is an example to build all this images.
+# run: docker-compose build
+
+services:
+  app-latest:
+    build: docker/images/php-apache/base
+    image: matheusbiagini/lamp7.1:latest
+
+  app-base:
+    build: docker/images/php-apache/base
+    image: matheusbiagini/lamp7.1:base
+
+  app-dev:
+    build: docker/images/php-apache/dev
+    image: matheusbiagini/lamp7.1:dev
