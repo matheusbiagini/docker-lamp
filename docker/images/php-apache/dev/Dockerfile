@@ -1,6 +1,6 @@
 FROM matheusbiagini/docker-lamp:base
 LABEL version="0.1.0"
-LABEL description="Image for development on applications"
+LABEL description="Image for development on applications "
 
 COPY xdebug.ini /tmp
 

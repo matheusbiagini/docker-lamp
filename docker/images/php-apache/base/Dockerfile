@@ -1,6 +1,6 @@
 FROM php:7.1-apache
 LABEL version="0.1.0"
-LABEL description="Image for application"
+LABEL description="Image for application "
 
 ENV IMAGEVERSION=0.1.0
 
